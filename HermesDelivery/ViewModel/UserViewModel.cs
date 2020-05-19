@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HermesDelivery.ViewModel
 {
-    class UserViewModel
+    public class UserViewModel
     {
+
     }
 }
