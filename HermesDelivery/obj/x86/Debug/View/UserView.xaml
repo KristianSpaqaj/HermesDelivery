@@ -1,20 +1,15 @@
 ﻿<Page
-    x:Class="HermesDelivery.View.RestaurantView"
+    x:Class="HermesDelivery.View.UserView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:HermesDelivery.View"
-    xmlns:viewmodel="using:HermesDelivery.ViewModel"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    RequestedTheme="Light"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <Page.DataContext>
-        <viewmodel:RestaurantViewModel/>
-    </Page.DataContext>
 
     <Grid>
 
     </Grid>
 </Page>
+

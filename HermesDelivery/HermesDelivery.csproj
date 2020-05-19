@@ -119,7 +119,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Butik.cs" />
+    <Compile Include="Model\Store.cs" />
     <Compile Include="Model\Menu.cs" />
     <Compile Include="Model\MenuItem.cs" />
     <Compile Include="Model\Restaurant.cs" />

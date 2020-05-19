@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-28T11:11:44.523</Modified>
+      <Modified>2020-05-19T18:37:33.389</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\HermesDelivery.exe">
       <PackagePath>entrypoint\HermesDelivery.exe</PackagePath>
-      <Modified>2020-04-28T11:11:43.584</Modified>
+      <Modified>2020-05-19T18:37:32.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,15 +86,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\HermesDelivery.xr.xml">
       <PackagePath>HermesDelivery.xr.xml</PackagePath>
-      <Modified>2020-04-28T11:11:43.468</Modified>
+      <Modified>2020-05-19T18:37:32.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-28T11:11:43.470</Modified>
+      <Modified>2020-05-19T18:37:32.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\View\RestaurantView.xbf">
       <PackagePath>View\RestaurantView.xbf</PackagePath>
-      <Modified>2020-04-28T11:11:43.470</Modified>
+      <Modified>2020-05-19T18:37:32.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\View\UserView.xbf">
+      <PackagePath>View\UserView.xbf</PackagePath>
+      <Modified>2020-05-19T18:37:32.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-28T11:11:43.655</Modified>
+      <Modified>2020-05-19T18:37:32.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\Core\HermesDelivery.exe">
       <PackagePath>HermesDelivery.exe</PackagePath>
-      <Modified>2020-04-28T11:11:44.520</Modified>
+      <Modified>2020-05-19T18:37:33.381</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

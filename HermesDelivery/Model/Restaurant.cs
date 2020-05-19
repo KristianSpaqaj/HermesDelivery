@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace HermesDelivery.Model
 {
-    public class Restaurant : Butik
+    public class Restaurant : Store
     {
-		public Restaurant(string name, string address, string number, int rating) : base(name, address, number, rating)
+		public Restaurant(string name, string address, string number, Menu menu) : base(name, address, number, menu)
 		{
 
 
 		}
 
-		public 
+		
 	}
 }

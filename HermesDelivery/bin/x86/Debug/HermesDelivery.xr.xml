@@ -4,10 +4,13 @@
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="HermesDelivery.ViewModel.RestaurantViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid" />
     <RootType FullName="HermesDelivery.View.RestaurantView" />
+    <RootType FullName="HermesDelivery.View.UserView" />
   </Roots.RootTypes>
 </Roots>
