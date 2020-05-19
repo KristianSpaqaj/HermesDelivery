@@ -14,6 +14,6 @@ namespace HermesDelivery.Model
 
 		}
 
-		public 
+		
 	}
 }
