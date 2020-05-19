@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kristian\\source\\repos\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj": {}
+    "C:\\Users\\Phano\\Documents\\GitHub\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kristian\\source\\repos\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj": {
+    "C:\\Users\\Phano\\Documents\\GitHub\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kristian\\source\\repos\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
+        "projectUniqueName": "C:\\Users\\Phano\\Documents\\GitHub\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
         "projectName": "HermesDelivery",
-        "projectPath": "C:\\Users\\Kristian\\source\\repos\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
-        "packagesPath": "C:\\Users\\Kristian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristian\\source\\repos\\HermesDelivery\\HermesDelivery\\obj\\",
+        "projectPath": "C:\\Users\\Phano\\Documents\\GitHub\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
+        "packagesPath": "C:\\Users\\Phano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phano\\Documents\\GitHub\\HermesDelivery\\HermesDelivery\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kristian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Phano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.17763"

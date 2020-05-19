@@ -1,18 +1,16 @@
 ﻿<Page
-    x:Class="HermesDelivery.View.UserView"
+    x:Class="HermesDelivery.View.RestaurantView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:HermesDelivery.View"
+    xmlns:viewmodel="using:HermesDelivery.ViewModel" 
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image Source="waterfront.jpg" />
-        <TextBox HorizontalAlignment="Center" Margin="0,419,0,0" PlaceholderText="Enter your username" VerticalAlignment="Top" Height="33" Width="200"/>
-        <PasswordBox HorizontalAlignment="Center" Margin="0,471,0,0" PlaceholderText="Enter your password" VerticalAlignment="Top" Height="33" Width="200" PasswordChar="#" Password=""/>
-
 
     </Grid>
 </Page>
+

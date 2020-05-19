@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wNBK2f9GHr8NGquDJHP9hfaqRIJuWiBcgZuo0u/511UI0od2IeFOrZZ80+4G3BY9cGEUwWV+XnbFTtAUXjYNyQ==",
+  "dgSpecHash": "g1xTTqcKQT1aynD+OliqEhqyh/DVjUJj8n0Wnehgs2i2AltlrjN3yhN3XHGDoz4gB/ClnsZ4C1w1Wn6q88qIdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kristian\\source\\repos\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
+  "projectFilePath": "C:\\Users\\Phano\\Documents\\GitHub\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.7-rel-27913-00\\microsoft.net.native.compiler.2.2.7-rel-27913-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.9\\microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",

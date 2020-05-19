@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>KRISTIAN-DESKTO</Machine>
-    <WindowsUser>Kristian</WindowsUser>
+    <Machine>DESKTOP-VNKDQB0</Machine>
+    <WindowsUser>Phano</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>82c50543-73c2-41e2-91f1-f922f2884f61</PackageIdentityName>
     <PackageIdentityPublisher>CN=Kristian</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>AFD97D4DD15C334CE50213683AF874793DCB340C746BD8742DA5CBC2F7E525BE</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E09EAEDD515C05AE82D738BA7480BD46F5E634E4735FD84A2B456444F02E3427</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>82c50543-73c2-41e2-91f1-f922f2884f61_1.0.0.0_x86__6ffws9jc6r7qy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>82c50543-73c2-41e2-91f1-f922f2884f61_6ffws9jc6r7qy!App</RegisteredUserModeAppID>
     <RegisteredPackageID>82c50543-73c2-41e2-91f1-f922f2884f61</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-28T11:11:44.523</Modified>
+      <Modified>2020-05-19T10:16:54.561</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\HermesDelivery.exe">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\HermesDelivery.exe">
       <PackagePath>entrypoint\HermesDelivery.exe</PackagePath>
-      <Modified>2020-04-28T11:11:43.584</Modified>
+      <Modified>2020-05-19T10:16:53.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,67 +46,71 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-04-28T10:48:08.938</Modified>
+      <Modified>2020-05-19T09:07:40.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-04-22T08:21:45.081</Modified>
+      <Modified>2020-05-19T09:07:40.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-22T08:21:45.081</Modified>
+      <Modified>2020-05-19T09:07:40.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-22T08:21:45.081</Modified>
+      <Modified>2020-05-19T09:07:40.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-22T08:21:45.081</Modified>
+      <Modified>2020-05-19T09:07:40.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-22T08:21:45.081</Modified>
+      <Modified>2020-05-19T09:07:40.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-22T08:21:45.081</Modified>
+      <Modified>2020-05-19T09:07:40.751</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-22T08:21:45.081</Modified>
+      <Modified>2020-05-19T09:07:40.751</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\HermesDelivery.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\HermesDelivery.xr.xml">
       <PackagePath>HermesDelivery.xr.xml</PackagePath>
-      <Modified>2020-04-28T11:11:43.468</Modified>
+      <Modified>2020-05-19T10:16:53.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-28T11:11:43.470</Modified>
+      <Modified>2020-05-19T10:16:53.560</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\View\RestaurantView.xbf">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\View\RestaurantView.xbf">
       <PackagePath>View\RestaurantView.xbf</PackagePath>
-      <Modified>2020-04-28T11:11:43.470</Modified>
+      <Modified>2020-05-19T10:16:53.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\View\UserView.xbf">
+      <PackagePath>View\UserView.xbf</PackagePath>
+      <Modified>2020-05-19T10:16:53.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-28T11:11:43.655</Modified>
+      <Modified>2020-05-19T10:16:53.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x86\Debug\Core\HermesDelivery.exe">
+    <AppxPackagedFile Include="C:\Users\Phano\Documents\GitHub\HermesDelivery\HermesDelivery\bin\x86\Debug\Core\HermesDelivery.exe">
       <PackagePath>HermesDelivery.exe</PackagePath>
-      <Modified>2020-04-28T11:11:44.520</Modified>
+      <Modified>2020-05-19T10:16:54.550</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
