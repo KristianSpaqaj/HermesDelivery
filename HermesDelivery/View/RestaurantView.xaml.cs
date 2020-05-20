@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HermesDelivery.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +23,12 @@ namespace HermesDelivery.View
     /// </summary>
     public sealed partial class RestaurantView : Page
     {
+        
+        public RestaurantViewModel restaurantViewModel { get; set; }
         public RestaurantView()
         {
             this.InitializeComponent();
+            restaurantViewModel = new RestaurantViewModel();
         }
     }
 }

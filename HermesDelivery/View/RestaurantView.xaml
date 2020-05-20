@@ -15,6 +15,7 @@
     </Page.DataContext>
 
     <Grid>
-
+        <ListView SelectedItem="{x:Bind restaurantViewModel.CurrentRestaurant, Mode=TwoWay}" ItemsSource="{x:Bind restaurantViewModel.CurrentRestaurant.Menu}" Height="375" Width="291" Margin="131,30,10,363">
+        </ListView>
     </Grid>
 </Page>
