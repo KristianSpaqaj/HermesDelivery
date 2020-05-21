@@ -10,14 +10,14 @@
     mc:Ignorable="d"
     RequestedTheme="Light"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-   
+
 
     <Page.DataContext>
         <viewmodel:RestaurantViewModel/>
     </Page.DataContext>
 
     <Grid>
-        <ListView ItemsSource="{x:Bind restaurantViewModel.CurrentRestaurant.Menu.MenuItemList}" Height="375" Width="291" Margin="131,30,10,363">
+        <ListView ItemsSource="{x:Bind restaurantViewModel.CurrentRestaurant.Menu.MenuItemList}" Height="375" Width="291" Margin="0,166,141,227">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="data:MenuItem">
                     <StackPanel Orientation="Horizontal">
@@ -27,5 +27,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <TextBlock HorizontalAlignment="Left" Margin="45,29,0,0" Text="{x:Bind Path=restaurantViewModel.CurrentRestaurant.Name}" FontSize="24"  TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="128"/>
     </Grid>
 </Page>

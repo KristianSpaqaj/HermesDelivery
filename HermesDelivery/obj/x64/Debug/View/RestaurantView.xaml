@@ -10,23 +10,24 @@
     mc:Ignorable="d"
     RequestedTheme="Light"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-   
+
 
     <Page.DataContext>
         <viewmodel:RestaurantViewModel/>
     </Page.DataContext>
 
     <Grid>
-        <ListView x:ConnectionId='2'                                                                                Height="375" Width="291" Margin="131,30,10,363">
+        <ListView x:ConnectionId='2'                                                                                Height="375" Width="291" Margin="0,166,141,227">
             <ListView.ItemTemplate>
                 <DataTemplate                           >
-                    <StackPanel x:ConnectionId='4' Orientation="Horizontal">
-                        <TextBox x:ConnectionId='5'                                  />
-                        <TextBlock x:ConnectionId='6'                                   />
+                    <StackPanel x:ConnectionId='5' Orientation="Horizontal">
+                        <TextBox x:ConnectionId='6'                                  />
+                        <TextBlock x:ConnectionId='7'                                   />
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Margin="45,29,0,0"                                                                 FontSize="24"  TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="128"/>
     </Grid>
 </Page>
 
