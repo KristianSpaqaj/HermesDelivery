@@ -3,19 +3,29 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:HermesDelivery.View"
+    xmlns:data="using:HermesDelivery.Model"
     xmlns:viewmodel="using:HermesDelivery.ViewModel"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     RequestedTheme="Light"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+   
 
     <Page.DataContext>
         <viewmodel:RestaurantViewModel/>
     </Page.DataContext>
 
     <Grid>
-        <ListView SelectedItem="{x:Bind restaurantViewModel.CurrentRestaurant, Mode=TwoWay}" ItemsSource="{x:Bind restaurantViewModel.CurrentRestaurant.Menu}" Height="375" Width="291" Margin="131,30,10,363">
+        <ListView ItemsSource="{x:Bind restaurantViewModel.CurrentRestaurant.Menu.MenuItemList}" Height="375" Width="291" Margin="131,30,10,363">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="data:MenuItem">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox Text="{x:Bind Name, Mode=TwoWay}"/>
+                        <TextBlock Text="{x:Bind Price, Mode=TwoWay}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
     </Grid>
 </Page>
