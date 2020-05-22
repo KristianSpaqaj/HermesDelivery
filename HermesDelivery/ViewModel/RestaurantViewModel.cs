@@ -21,7 +21,7 @@ namespace HermesDelivery.ViewModel
         public RestaurantViewModel()
         {
             CurrentRestaurant = new Restaurant("Bon Appetit", "Lundestrædet 3 1tv", "88 88 88 88", new Menu(new List<MenuItem>(){new MenuItem("Burger", 55),
-            new MenuItem("Pasta", 70), new MenuItem("Pizza", 55), new MenuItem("durum kebab", 67)}));
+            new MenuItem("Pasta", 70), new MenuItem("Pizza", 55)}));
 
         }
 
