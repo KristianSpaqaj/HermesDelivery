@@ -29,5 +29,9 @@ namespace HermesDelivery.Model
             this.Price = price;
 
             }
+
+        public MenuItem()
+        {
+        }
     }
 }

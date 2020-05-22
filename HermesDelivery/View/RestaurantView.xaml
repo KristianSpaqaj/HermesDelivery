@@ -17,7 +17,7 @@
     </Page.DataContext>
 
     <Grid>
-        <ListView ItemsSource="{x:Bind restaurantViewModel.CurrentRestaurant.Menu.MenuItemList}" Height="375" Width="291" Margin="0,166,141,227">
+        <ListView SelectedItem="{x:Bind restaurantViewModel.SelectedKurvItem, Mode=TwoWay}" ItemsSource="{x:Bind restaurantViewModel.CurrentRestaurant.Menu.MenuItemList}" Height="375" Width="291" Margin="0,166,141,227">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="data:MenuItem">
                     <StackPanel Orientation="Horizontal">
@@ -28,5 +28,19 @@
             </ListView.ItemTemplate>
         </ListView>
         <TextBlock HorizontalAlignment="Left" Margin="45,29,0,0" Text="{x:Bind Path=restaurantViewModel.CurrentRestaurant.Name}" FontSize="24"  TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="128"/>
+
+        <Button Command="{x:Bind restaurantViewModel.AddNewItem,Mode=OneWay}" Content="Tilføj Item" Height="42" Margin="36,588,0,0" VerticalAlignment="Top" Width="73"/>
+
+
+        <ListView ItemsSource="{x:Bind restaurantViewModel.OC_Kurv}" Margin="239,497,24,10">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="data:MenuItem">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox Text="{x:Bind Name, Mode=TwoWay}"/>
+                        <TextBlock Text="{x:Bind Price, Mode=TwoWay}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>
