@@ -1,4 +1,5 @@
-﻿using HermesDelivery.Model;
+﻿using HermesDelivery.Common;
+using HermesDelivery.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -14,47 +15,45 @@ namespace HermesDelivery.ViewModel
     public class RestaurantViewModel : INotifyPropertyChanged
     {
 
-        //private string name;
-        //private int price;
+        
 
-        public ObservableCollection<MenuItem> OC_Kurv { get; set; }
+        public ObservableCollection<MenuItem> MenuCartItem { get; set; }
 
         private Restaurant _currentRestaurant;
+        private RelayCommand _goBack;
 
         public Restaurant CurrentRestaurant { get => _currentRestaurant; set => _currentRestaurant = value; }
 
-        //public string Name { get => name; set => name = value; }
-        //public int Price { get => price; set => price = value; }
+       
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public MenuItem SelectedKurvItem { get; set; }
+        public MenuItem SelectedMenuItem { get; set; }
 
         public RelayCommand AddNewItem { get; set; }
+        public RelayCommand GoBackCommand { get => _goBack; set => _goBack = value; }
 
         public RestaurantViewModel()
            
         { 
             AddNewItem = new RelayCommand(AddItem);
-            OC_Kurv = new ObservableCollection<MenuItem>();
-
-            SelectedKurvItem = new MenuItem();
-
-
-            CurrentRestaurant = new Restaurant("Bon Appetit", "Lundestrædet 3 1tv", "88 88 88 88", new Menu(new List<MenuItem>(){new MenuItem("Burger", 55),
-            new MenuItem("Pasta", 70), new MenuItem("Pizza", 55)}));
-
+            GoBackCommand = new RelayCommand(GoBack);
+            MenuCartItem = new ObservableCollection<MenuItem>();
+            CurrentRestaurant = Navigation.GetParameter<Restaurant>();
+            SelectedMenuItem = new MenuItem();
+            
         }
+
+        
 
         public void AddItem()
         {
-            //MenuItem oBlomst = new MenuItem(Name, Price);
+            MenuCartItem.Add(SelectedMenuItem);
+        }
 
-            //OC_Kurv.Add(oBlomst);
-
-            OC_Kurv.Add(SelectedKurvItem);
-
-            //SletSelectedBlomst.RaiseCanExecuteChanged();
+        public void GoBack()
+        {
+            Navigation.GoBack();
         }
 
 

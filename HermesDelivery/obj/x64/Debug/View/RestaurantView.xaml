@@ -17,7 +17,7 @@
     </Page.DataContext>
 
     <Grid>
-        <ListView x:ConnectionId='2'                                                                                                                                                          Height="375" Width="291" Margin="0,166,141,227">
+        <ListView x:ConnectionId='2'                                                                           ItemsSource="{Binding CurrentRestaurant.Menu.MenuItemList}" Height="375" Width="291" Margin="0,166,141,227">
             <ListView.ItemTemplate>
                 <DataTemplate                           >
                     <StackPanel x:ConnectionId='11' Orientation="Horizontal">
@@ -29,10 +29,10 @@
         </ListView>
         <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Margin="45,29,0,0"                                                                 FontSize="24"  TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="128"/>
 
-        <Button x:ConnectionId='4'                                                               Content="Tilføj Item" Height="42" Margin="36,588,0,0" VerticalAlignment="Top" Width="73"/>
+        <Button x:ConnectionId='4'                                                               Content="Tilføj Item" Height="40" Margin="36,588,0,0" VerticalAlignment="Top" Width="85"/>
 
 
-        <ListView x:ConnectionId='5'                                                    Margin="239,497,24,10">
+        <ListView x:ConnectionId='5'                                                         Margin="239,497,24,10">
             <ListView.ItemTemplate>
                 <DataTemplate                           >
                     <StackPanel x:ConnectionId='7' Orientation="Horizontal">
@@ -42,6 +42,8 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="29,686,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Page>
 
