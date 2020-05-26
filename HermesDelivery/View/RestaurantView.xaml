@@ -42,7 +42,9 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
         <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="29,686,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="350,86,0,0" Text="{x:Bind Path=restaurantViewModel.CurrentRestaurant.Open}" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
