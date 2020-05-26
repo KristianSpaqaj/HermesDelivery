@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace HermesDelivery.Model
 {
-    public class Store
-    {
+	public class Store
+	{
 		private string _name;
 		private string _address;
 		private string _number;
 		private string _open;
 		private Menu _menu;
-		
+
 		public string Number
 		{
 			get { return _number; }
@@ -40,15 +40,16 @@ namespace HermesDelivery.Model
 			set { _name = value; }
 		}
 
-		public Menu Menu { get => _menu; set => _menu = value; }
 
-		public Store(string name, string address, string number, string open, Menu menu )
-		{
+		public Menu Menu { get => _menu; set => _menu = value; }
+		public Store(string name, string address, string number, string open, Menu menu)
+		{ 
 			this.Name = name;
 			this.Address = address;
 			this.Number = number;
 			this.Open = open;
 			this.Menu = menu;
+			this.Open = open;
 			
 		}
 
