@@ -103,4 +103,3 @@ C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\RestuarantOverviewView.g.cs
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\RestuarantOverviewView.xaml
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\RestuarantOverviewView.xbf
-C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\HermesDelivery.csprojAssemblyReference.cache
