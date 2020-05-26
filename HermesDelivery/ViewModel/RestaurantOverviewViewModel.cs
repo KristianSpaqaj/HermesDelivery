@@ -27,9 +27,9 @@ namespace HermesDelivery.ViewModel
         {
             RestaurantsList = new ObservableCollection<Restaurant>()
             {
-                new Restaurant("Bon Appetit", "Lundestrædet 3 1tv", "88 88 88 88","Mandag - fredag 10:00 - 22:00", new Menu(new List<MenuItem>(){new MenuItem("Burger", 55),
+                new Restaurant("Bon Appetit", "Lundestrædet 3 1tv", "88 88 88 88", new Menu(new List<MenuItem>(){new MenuItem("Burger", 55),
                     new MenuItem("Pasta", 70), new MenuItem("Pizza", 55)})),
-                new Restaurant("Texas Steakhouse", "123 Dallas", "12 34 56 78","Mandag - fredag 10:00 - 22:00",  new Menu(new List<MenuItem>(){new MenuItem ("Burger", 60), 
+                new Restaurant("Texas Steakhouse", "123 Dallas", "12 34 56 78", new Menu(new List<MenuItem>(){new MenuItem ("Burger", 60), 
                     new MenuItem("French Fries", 36)}))
                 
             };

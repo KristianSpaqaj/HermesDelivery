@@ -12,7 +12,7 @@ namespace HermesDelivery.Model
 		private string _name;
 		private string _address;
 		private string _number;
-		private string _open;
+
 		private Menu _menu;
 		
 		public string Number
@@ -20,12 +20,7 @@ namespace HermesDelivery.Model
 			get { return _number; }
 			set { _number = value; }
 		}
-	
-		public string Open
-		{
-			get { return _open; }
-			set { _open = value; }
-		}
+
 
 		public string Address
 		{
@@ -42,12 +37,11 @@ namespace HermesDelivery.Model
 
 		public Menu Menu { get => _menu; set => _menu = value; }
 
-		public Store(string name, string address, string number, string open, Menu menu )
+		public Store(string name, string address, string number, Menu menu)
 		{
 			this.Name = name;
 			this.Address = address;
 			this.Number = number;
-			this.Open = open;
 			this.Menu = menu;
 			
 		}
