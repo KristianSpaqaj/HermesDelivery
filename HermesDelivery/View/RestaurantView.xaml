@@ -32,7 +32,7 @@
         <Button Command="{x:Bind restaurantViewModel.AddNewItem,Mode=OneWay}" Content="Tilføj Item" Height="40" Margin="36,588,0,0" VerticalAlignment="Top" Width="85"/>
 
 
-        <ListView ItemsSource="{x:Bind restaurantViewModel.MenuCartItem}" Margin="239,497,24,10">
+        <ListView SelectedItem="{x:Bind restaurantViewModel.SelectedCartItem, Mode=TwoWay}" ItemsSource="{x:Bind restaurantViewModel.MenuCartItem}" Margin="239,497,24,10">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="data:MenuItem">
                     <StackPanel Orientation="Horizontal">
@@ -44,6 +44,7 @@
         </ListView>
         <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="29,686,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="324,123,0,0" Text="Mandag-Fredag 10:00-22:00" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Command="{x:Bind restaurantViewModel.RemoveItem,Mode=OneWay}" Content="Slet fra ordre" Margin="291,460,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

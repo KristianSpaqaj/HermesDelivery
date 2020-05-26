@@ -24,11 +24,14 @@ namespace HermesDelivery.ViewModel
 
         public Restaurant CurrentRestaurant { get => _currentRestaurant; set => _currentRestaurant = value; }
 
-       
+        public RelayCommand RemoveItem { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
         public MenuItem SelectedMenuItem { get; set; }
+        public MenuItem SelectedCartItem { get; set; }
+
+        
 
         public RelayCommand AddNewItem { get; set; }
         public RelayCommand GoBackCommand { get => _goBack; set => _goBack = value; }
@@ -41,6 +44,8 @@ namespace HermesDelivery.ViewModel
             MenuCartItem = new ObservableCollection<MenuItem>();
             CurrentRestaurant = Navigation.GetParameter<Restaurant>();
             SelectedMenuItem = new MenuItem();
+            SelectedCartItem = new MenuItem();
+            RemoveItem = new RelayCommand(DeleteItem);
             
         }
 
@@ -54,6 +59,11 @@ namespace HermesDelivery.ViewModel
         public void GoBack()
         {
             Navigation.GoBack();
+        }
+        private void DeleteItem()
+        {
+            MenuCartItem.Remove(SelectedCartItem);
+            RemoveItem.RaiseCanExecuteChanged();
         }
 
 
