@@ -43,6 +43,7 @@
             </ListView.ItemTemplate>
         </ListView>
         <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="29,686,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="324,123,0,0" Text="Mandag-Fredag 10:00-22:00" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

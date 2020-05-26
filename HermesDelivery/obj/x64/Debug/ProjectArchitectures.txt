@@ -1,1 +1,1 @@
-C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\HermesDelivery.csproj;x64
+C:\Kode\HermesDelivery\HermesDelivery\HermesDelivery.csproj;x64
