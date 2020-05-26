@@ -9,7 +9,8 @@ namespace HermesDelivery.Common
     {
         private static Stack<object> _history = new Stack<object>();
 
-
+        // denne funktion navigere til den angivende side
+        // den første parameter angiver hvilken side man går til og den anden parameter er den data man ville sende til den side
         public static void GoToPage(string dest, object param = null)
         {
             Frame rootFrame = GetRootFrame();
@@ -18,7 +19,7 @@ namespace HermesDelivery.Common
             _history.Push(param);
             rootFrame.Navigate(type);
         }
-
+        // denne funktion sender en tilbage til den forrige side
         public static void GoBack()
         {
             Frame rootFrame = GetRootFrame();
@@ -29,7 +30,7 @@ namespace HermesDelivery.Common
                 rootFrame.GoBack();
             }
         }
-
+        
         public static void GoBack(object param = null)
         {
             Frame rootFrame = GetRootFrame();
@@ -44,25 +45,12 @@ namespace HermesDelivery.Common
             }
         }
 
-
+        // denne funktion kalder på den data der er blevet sendt til den nuværende side
         public static T GetParameter<T>()
         {
-            if (_history.Count == 0)
-            {
-                //throw new NoParameterException();
-            }
-
-            //try
-            //{
+            
             T converted = (T)_history.Peek();
-            //_parameter = null;
             return converted;
-            //}
-            //catch
-            //{
-            //    throw new UnableToConvertParameterException();
-            //}
-
         }
 
 

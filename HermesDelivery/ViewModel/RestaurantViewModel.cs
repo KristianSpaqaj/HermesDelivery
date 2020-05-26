@@ -21,6 +21,7 @@ namespace HermesDelivery.ViewModel
 
         private Restaurant _currentRestaurant;
         private RelayCommand _goBack;
+        private RelayCommand _goToCartPageCommand;
 
         public Restaurant CurrentRestaurant { get => _currentRestaurant; set => _currentRestaurant = value; }
 
@@ -35,18 +36,19 @@ namespace HermesDelivery.ViewModel
 
         public RelayCommand AddNewItem { get; set; }
         public RelayCommand GoBackCommand { get => _goBack; set => _goBack = value; }
+        public RelayCommand GoToCartPageCommand { get => _goToCartPageCommand; set => _goToCartPageCommand = value; }
 
         public RestaurantViewModel()
            
         { 
-            AddNewItem = new RelayCommand(AddItem);
             GoBackCommand = new RelayCommand(GoBack);
             MenuCartItem = new ObservableCollection<MenuItem>();
             CurrentRestaurant = Navigation.GetParameter<Restaurant>();
             SelectedMenuItem = new MenuItem();
             SelectedCartItem = new MenuItem();
             RemoveItem = new RelayCommand(DeleteItem);
-            
+            GoToCartPageCommand = new RelayCommand(GoToCartPage);
+            AddNewItem = new RelayCommand(AddItem);
         }
 
         
@@ -64,6 +66,16 @@ namespace HermesDelivery.ViewModel
         {
             MenuCartItem.Remove(SelectedCartItem);
             RemoveItem.RaiseCanExecuteChanged();
+        }
+
+        public void GoToCartPage()
+        {
+            
+            if (MenuCartItem.Count > 0 )
+            {
+                Navigation.GoToPage("CartView", MenuCartItem);
+            }
+
         }
 
 

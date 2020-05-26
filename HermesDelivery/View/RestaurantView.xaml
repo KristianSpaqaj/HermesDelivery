@@ -17,34 +17,35 @@
     </Page.DataContext>
 
     <Grid>
-        <ListView SelectedItem="{x:Bind restaurantViewModel.SelectedMenuItem, Mode=TwoWay}" ItemsSource="{Binding CurrentRestaurant.Menu.MenuItemList}" Height="375" Width="291" Margin="0,166,141,227">
+        <ListView SelectedItem="{Binding SelectedMenuItem, Mode=TwoWay}" ItemsSource="{Binding CurrentRestaurant.Menu.MenuItemList}" Height="375" Width="291" Margin="0,166,141,227">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="data:MenuItem">
                     <StackPanel Orientation="Horizontal">
-                        <TextBox Text="{x:Bind Name, Mode=TwoWay}"/>
-                        <TextBlock Text="{x:Bind Price, Mode=TwoWay}"/>
+                        <TextBox Text="{Binding Name, Mode=TwoWay}"/>
+                        <TextBlock Text="{Binding Price, Mode=TwoWay}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <TextBlock HorizontalAlignment="Left" Margin="45,29,0,0" Text="{x:Bind Path=restaurantViewModel.CurrentRestaurant.Name}" FontSize="24"  TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="306"/>
+        <TextBlock HorizontalAlignment="Left" Margin="45,29,0,0" Text="{Binding CurrentRestaurant.Name}" FontSize="24"  TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="306"/>
 
-        <Button Command="{x:Bind restaurantViewModel.AddNewItem,Mode=OneWay}" Content="Tilføj Item" Height="40" Margin="36,588,0,0" VerticalAlignment="Top" Width="85"/>
+        <Button Command="{Binding AddNewItem,Mode=OneWay}" Content="Tilføj Item" Height="40" Margin="36,588,0,0" VerticalAlignment="Top" Width="85"/>
 
 
-        <ListView SelectedItem="{x:Bind restaurantViewModel.SelectedCartItem, Mode=TwoWay}" ItemsSource="{x:Bind restaurantViewModel.MenuCartItem}" Margin="239,497,24,10">
+        <ListView SelectedItem="{Binding SelectedCartItem, Mode=TwoWay}" ItemsSource="{Binding MenuCartItem,Mode=TwoWay}" Margin="239,497,24,10">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="data:MenuItem">
                     <StackPanel Orientation="Horizontal">
-                        <TextBox Text="{x:Bind Name, Mode=TwoWay}"/>
-                        <TextBlock Text="{x:Bind Price, Mode=TwoWay}"/>
+                        <TextBox Text="{Binding Name, Mode=TwoWay}"/>
+                        <TextBlock Text="{Binding Price, Mode=TwoWay}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
         <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="29,686,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="324,123,0,0" Text="Mandag-Fredag 10:00-22:00" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button Command="{x:Bind restaurantViewModel.RemoveItem,Mode=OneWay}" Content="Slet fra ordre" Margin="291,460,0,0" VerticalAlignment="Top"/>
+        <Button Command="{Binding RemoveItem,Mode=OneWay}" Content="Slet fra ordre" Margin="291,460,0,0" VerticalAlignment="Top"/>
+        <Button Command="{Binding GoToCartPageCommand}" Content="Gå til kurv" Margin="154,686,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
