@@ -33,6 +33,8 @@ namespace HermesDelivery.ViewModel
                     new MenuItem("French Fries ", 36), new MenuItem("T-bone Steak ", 135), new MenuItem("Entrecôte ",120)})),
                 new Restaurant("Nippon Sushi", "180 hvidovrevej", "34 45 23 98","Mandag-Fredag 9:00-23:00",new Menu(new List<MenuItem>(){new MenuItem("California rolls ", 75 ),
                     new MenuItem("Fried shrimp ",40), new MenuItem("Springroll ", 45), new MenuItem("Squid Rings ", 75)})),
+                new Restaurant("Happy Elephant", "120 Kongensgade", "14 25 26 43", "Mandag-Lørdag 10:00-22:00", new Menu(new List<MenuItem>(){new MenuItem("Red Curry Rice ",75),
+                    new MenuItem("Tandoori Chicken ", 40 ), new MenuItem("Pesarattu Dosa ",60)}))
             };
             GoToRestaurantPageCommand = new RelayCommand(GoToRestaurantPage);
 
