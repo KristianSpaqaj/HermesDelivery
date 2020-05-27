@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Kode\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj": {}
+    "C:\\CODE LOKALT\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj": {}
   },
   "projects": {
-    "C:\\Kode\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj": {
+    "C:\\CODE LOKALT\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kode\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
+        "projectUniqueName": "C:\\CODE LOKALT\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
         "projectName": "HermesDelivery",
-        "projectPath": "C:\\Kode\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
-        "packagesPath": "C:\\Users\\Philip\\.nuget\\packages\\",
-        "outputPath": "C:\\Kode\\HermesDelivery\\HermesDelivery\\obj\\",
+        "projectPath": "C:\\CODE LOKALT\\HermesDelivery\\HermesDelivery\\HermesDelivery.csproj",
+        "packagesPath": "C:\\Users\\Mikkel\\.nuget\\packages\\",
+        "outputPath": "C:\\CODE LOKALT\\HermesDelivery\\HermesDelivery\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mikkel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

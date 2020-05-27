@@ -8,14 +8,12 @@
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="SelectedRestaurant" />
     <RootPropertyPathName Name="RestaurantsList" />
-    <RootPropertyPathName Name="CurrentRestaurant" />
-    <RootPropertyPathName Name="Address" />
-    <RootPropertyPathName Name="Number" />
     <RootPropertyPathName Name="GoToCartPageCommand" />
     <RootPropertyPathName Name="RemoveItem" />
     <RootPropertyPathName Name="SelectedCartItem" />
     <RootPropertyPathName Name="MenuCartItem" />
     <RootPropertyPathName Name="AddNewItem" />
+    <RootPropertyPathName Name="CurrentRestaurant" />
     <RootPropertyPathName Name="SelectedMenuItem" />
     <RootPropertyPathName Name="Menu" />
     <RootPropertyPathName Name="MenuItemList" />
@@ -51,7 +49,6 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Command" />
