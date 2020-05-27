@@ -158,7 +158,6 @@ C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\qualifiers.txt
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\ProjectArchitectures.txt
-C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x64\Debug\View\CartView.xbf
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.g.i.cs
