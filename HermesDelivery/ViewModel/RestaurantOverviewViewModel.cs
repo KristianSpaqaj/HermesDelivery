@@ -27,11 +27,12 @@ namespace HermesDelivery.ViewModel
         {
             RestaurantsList = new ObservableCollection<Restaurant>()
             {
-                new Restaurant("Bon Appetit", "Lundestrædet 3 1tv", "88 88 88 88", "Mandag-Fredag 10:00-22:00", new Menu(new List<MenuItem>(){new MenuItem("Burger", 55),
-                    new MenuItem("Pasta", 70), new MenuItem("Pizza", 55)})),
-                new Restaurant("Texas Steakhouse", "123 Dallas", "12 34 56 78","Mandag-Fredag 10:00-22:00", new Menu(new List<MenuItem>(){new MenuItem ("Burger", 60), 
-                    new MenuItem("French Fries", 36)}))
-                
+                new Restaurant("Bon Appetit", "Labæk 51", "42 78 41 55", "Mandag-Fredag 10:00-22:00", new Menu(new List<MenuItem>(){new MenuItem("Burger ", 55),
+                    new MenuItem("Pasta ", 70), new MenuItem("Pizza", 55), new MenuItem("Lasagne ",60), new MenuItem("Hvidløgs Brød ", 85)})),
+                new Restaurant("Texas Steakhouse", "123 Dallas", "12 34 56 78","Mandag-Fredag 10:00-22:00", new Menu(new List<MenuItem>(){new MenuItem ("Burger ", 60),
+                    new MenuItem("French Fries ", 36), new MenuItem("T-bone Steak ", 135), new MenuItem("Entrecôte ",120)})),
+                new Restaurant("Nippon Sushi", "180 hvidovrevej", "34 45 23 98","Mandag-Fredag 9:00-23:00",new Menu(new List<MenuItem>(){new MenuItem("California rolls ", 75 ),
+                    new MenuItem("Fried shrimp ",40), new MenuItem("Springroll ", 45), new MenuItem("Squid Rings ", 75)})),
             };
             GoToRestaurantPageCommand = new RelayCommand(GoToRestaurantPage);
 
