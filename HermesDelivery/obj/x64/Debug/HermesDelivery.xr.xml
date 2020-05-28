@@ -8,12 +8,15 @@
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="SelectedRestaurant" />
     <RootPropertyPathName Name="RestaurantsList" />
+    <RootPropertyPathName Name="CurrentRestaurant" />
+    <RootPropertyPathName Name="Address" />
+    <RootPropertyPathName Name="Number" />
     <RootPropertyPathName Name="GoToCartPageCommand" />
     <RootPropertyPathName Name="RemoveItem" />
+    <RootPropertyPathName Name="Open" />
     <RootPropertyPathName Name="SelectedCartItem" />
     <RootPropertyPathName Name="MenuCartItem" />
     <RootPropertyPathName Name="AddNewItem" />
-    <RootPropertyPathName Name="CurrentRestaurant" />
     <RootPropertyPathName Name="SelectedMenuItem" />
     <RootPropertyPathName Name="Menu" />
     <RootPropertyPathName Name="MenuItemList" />
@@ -21,16 +24,48 @@
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
-      <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Background" />
-      <RootProperty Name="DataContext" />
       <RootProperty Name="Content" />
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="HermesDelivery.ViewModel.CartViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RatingControl">
+      <RootProperty Name="IsClearEnabled" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetName" />
+      <RootMethod Name="SetName" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Command" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="HermesDelivery.View.Anmeld" />
+    <RootType FullName="HermesDelivery.ViewModel.CartViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="Margin" />
@@ -50,14 +85,6 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Command" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
     </RootType>
@@ -67,9 +94,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
       <RootProperty Name="Children" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="HermesDelivery.View.CartView" />
     <RootType FullName="HermesDelivery.ViewModel.RestaurantOverviewViewModel" />

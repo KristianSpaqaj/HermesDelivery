@@ -118,7 +118,6 @@ C:\Kode\HermesDelivery\HermesDelivery\bin\x64\Debug\HermesDelivery.build.appxrec
 C:\Kode\HermesDelivery\HermesDelivery\bin\x64\Debug\Newtonsoft.Json.dll
 C:\Kode\HermesDelivery\HermesDelivery\bin\x64\Debug\System.Runtime.dll
 C:\Kode\HermesDelivery\HermesDelivery\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\HermesDelivery.csprojAssemblyReference.cache
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\App.g.i.cs
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\App.g.cs
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\RestuarantOverviewView.g.i.cs
@@ -165,3 +164,14 @@ C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.xaml
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.xbf
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\HermesDelivery.csprojAssemblyReference.cache
+C:\Kode\HermesDelivery\HermesDelivery\bin\x64\Debug\View\Anmeld.xbf
+C:\Kode\HermesDelivery\HermesDelivery\bin\x64\Debug\View\CartView.xbf
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\Anmeld.g.i.cs
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\Anmeld.g.cs
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.g.i.cs
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.g.cs
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\Anmeld.xaml
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.xaml
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\Anmeld.xbf
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.xbf
+C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\HermesDelivery.csprojAssemblyReference.cache

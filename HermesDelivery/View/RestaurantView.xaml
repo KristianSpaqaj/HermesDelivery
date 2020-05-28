@@ -43,9 +43,13 @@
             </ListView.ItemTemplate>
         </ListView>
         <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="29,686,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="324,123,0,0" Text="Mandag-Fredag 10:00-22:00" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="45,83,0,0" Text="{Binding CurrentRestaurant.Open}" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button Command="{Binding RemoveItem,Mode=OneWay}" Content="Slet fra ordre" Margin="291,460,0,0" VerticalAlignment="Top"/>
         <Button Command="{Binding GoToCartPageCommand}" Content="Gå til kurv" Margin="154,686,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="45,102,0,0" Text="Kontakt:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="101,102,0,0" Text="{Binding CurrentRestaurant.Number}" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="45,121,0,0" Text="Adresse:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="106,121,0,0" Text="{Binding CurrentRestaurant.Address}" TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

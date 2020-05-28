@@ -26,7 +26,7 @@
         </ListView>
         <TextBlock HorizontalAlignment="Left" Margin="13,470,0,0" Text="Total pris" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="85,470,0,0" Text="{Binding SumOfCartItems}" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="13,703,0,0" VerticalAlignment="Top"/>
+        <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="29,686,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
