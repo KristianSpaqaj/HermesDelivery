@@ -11,18 +11,20 @@ namespace HermesDelivery.Model
 {
     public class Menu : INotifyPropertyChanged
     {
-        private ObservableCollection<MenuItem> menuItemList;
+        
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public ObservableCollection<MenuItem> MenuItemList { get => menuItemList; set => menuItemList = value; }
+        public ObservableCollection<MenuItem> MenuItemList { get; set; }
 
-        public Menu()
+        public Menu(List<MenuItem> menuitems)
         {
-            // MenuItemList = new ObservableCollection<MenuItem>();
-            // MenuItemList.Add(new MenuItem("Salat pizza", 60);
-            // MenuItemList.Add(new MenuItem("Chesse burger", 50);
-            // MenuItemList.Add(new MenuItem("Pomme frites", 35);
+            MenuItemList = new ObservableCollection<MenuItem>(menuitems);
+            //test
+            //MenuItemList.Add(new MenuItem("Salat pizza", 60));
+            //MenuItemList.Add(new MenuItem("Chesse burger", 50));
+            //MenuItemList.Add(new MenuItem("Pomme frites", 35));
         }
+
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             var handler = PropertyChanged;

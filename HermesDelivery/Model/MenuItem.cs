@@ -23,9 +23,15 @@ namespace HermesDelivery.Model
                 set { _name = value; }
             }
 
-            public MenuItem()
+            public MenuItem(string name, int price)
             {
+            this.Name = name;
+            this.Price = price;
 
             }
+
+        public MenuItem()
+        {
+        }
     }
 }
