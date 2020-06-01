@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="HermesDelivery.View.ReviewPageView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HermesDelivery.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    RequestedTheme="Light"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,22,0,0" Text="Vi værdsætter din feedback" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Height="68" Width="398"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,67,0,0" Text="Skriv din review her" TextWrapping="Wrap" VerticalAlignment="Top" Height="111" Width="396"/>
+        <RatingControl HorizontalAlignment="Left" Margin="18,183,0,0" IsClearEnabled="True" VerticalAlignment="Top"/>
+        <Button Click="Button_Click" Content="Send anmeldelse" Margin="18,245,0,0" VerticalAlignment="Top"/>
+        <TextBlock Name="Andmeld" Visibility="Collapsed" HorizontalAlignment="Left" Margin="170,252,0,0" Text="Tak for din anmeldelse" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

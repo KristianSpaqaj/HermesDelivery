@@ -163,7 +163,6 @@ C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.g.cs
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.xaml
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.xbf
-C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\HermesDelivery.csprojAssemblyReference.cache
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x64\Debug\View\BuyPageView.xbf
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\BuyPageView.g.i.cs
 C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\BuyPageView.g.cs
@@ -180,3 +179,9 @@ C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.xaml
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\BuyPageView.xbf
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\View\CartView.xbf
 C:\Kode\HermesDelivery\HermesDelivery\obj\x64\Debug\HermesDelivery.csprojAssemblyReference.cache
+C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\bin\x64\Debug\View\ReviewPageView.xbf
+C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\HermesDelivery.csprojAssemblyReference.cache
+C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\ReviewPageView.g.i.cs
+C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\ReviewPageView.g.cs
+C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\ReviewPageView.xaml
+C:\Users\Kristian\source\repos\HermesDelivery\HermesDelivery\obj\x64\Debug\View\ReviewPageView.xbf

@@ -143,6 +143,9 @@
     <Compile Include="View\RestaurantView.xaml.cs">
       <DependentUpon>RestaurantView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ReviewPageView.xaml.cs">
+      <DependentUpon>ReviewPageView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\UserView.xaml.cs">
       <DependentUpon>UserView.xaml</DependentUpon>
     </Compile>
@@ -180,6 +183,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\RestaurantView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ReviewPageView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -12,5 +12,6 @@ View\BuyPageView.xbf
 View\CartView.xbf
 View\RestaurantView.xbf
 View\RestuarantOverviewView.xbf
+View\ReviewPageView.xbf
 View\UserView.xbf
 Properties\Default.rd.xml
