@@ -20,15 +20,11 @@ namespace HermesDelivery.View
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Anmeld : Page
+    public sealed partial class BuyPageView : Page
     {
-        public Anmeld()
+        public BuyPageView()
         {
             this.InitializeComponent();
-        }
-        private void OnClick(object sender, RoutedEventArgs e)
-        {
-            Skrald.Visibility = Visibility.Visible;
         }
     }
 }
