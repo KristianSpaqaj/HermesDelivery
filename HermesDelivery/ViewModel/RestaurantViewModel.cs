@@ -52,22 +52,25 @@ namespace HermesDelivery.ViewModel
         }
 
         
-
+        // her tilføjer man en ret fra menu til ens kurv
         public void AddItem()
         {
             MenuCartItem.Add(SelectedMenuItem);
         }
-
+        // ved denne metode bliver man sendt tilbage til den forrige side
         public void GoBack()
         {
             Navigation.GoBack();
         }
+        // I denne metode, når man trykker på et element i listen og derefter trykker på en knap som er bundet her til,
+        // sletter man den vare man ikke ville have fra ens kurv
         private void DeleteItem()
         {
             MenuCartItem.Remove(SelectedCartItem);
             RemoveItem.RaiseCanExecuteChanged();
         }
-
+        // Denne metode tjekker om der er tilføjet noget til kurve, og hvis der er kan man trykke på knappen
+        // som er bundet til denne metode og blive videresent til "CartView"
         public void GoToCartPage()
         {
             

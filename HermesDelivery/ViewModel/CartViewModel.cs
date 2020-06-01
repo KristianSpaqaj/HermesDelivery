@@ -26,7 +26,8 @@ namespace HermesDelivery.ViewModel
             GoBackCommand = new RelayCommand(GoBack);
             
         }
-
+        // I denne metode tager vi priserne fra de forskellige menuitems og ligger dem sammen
+        // for at give os en totalpris
         public int CalculateSum(ObservableCollection<MenuItem> cartList)
         {
             int sum = 0;
@@ -37,7 +38,7 @@ namespace HermesDelivery.ViewModel
             return sum;
             
         }
-
+        // sender en tilbage til den forrige side
         public void GoBack()
         {
             Navigation.GoBack();

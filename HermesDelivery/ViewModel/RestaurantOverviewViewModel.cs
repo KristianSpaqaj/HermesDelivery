@@ -25,6 +25,7 @@ namespace HermesDelivery.ViewModel
 
         public RestaurantOverviewViewModel()
         {
+            //tilføjer restauranter og deres menuer til listen
             RestaurantsList = new ObservableCollection<Restaurant>()
             {
                 new Restaurant("Bon Appetit", "Labæk 51", "42 78 41 55", "Mandag-Fredag 10:00-22:00", new Menu(new List<MenuItem>(){new MenuItem("Burger ", 55),
