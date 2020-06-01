@@ -8,12 +8,15 @@
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="SelectedRestaurant" />
     <RootPropertyPathName Name="RestaurantsList" />
+    <RootPropertyPathName Name="CurrentRestaurant" />
+    <RootPropertyPathName Name="Address" />
+    <RootPropertyPathName Name="Number" />
     <RootPropertyPathName Name="GoToCartPageCommand" />
     <RootPropertyPathName Name="RemoveItem" />
+    <RootPropertyPathName Name="Open" />
     <RootPropertyPathName Name="SelectedCartItem" />
     <RootPropertyPathName Name="MenuCartItem" />
     <RootPropertyPathName Name="AddNewItem" />
-    <RootPropertyPathName Name="CurrentRestaurant" />
     <RootPropertyPathName Name="SelectedMenuItem" />
     <RootPropertyPathName Name="Menu" />
     <RootPropertyPathName Name="MenuItemList" />
