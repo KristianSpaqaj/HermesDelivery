@@ -29,7 +29,7 @@
         </ListView>
         <TextBlock HorizontalAlignment="Left" Margin="45,29,0,0" Text="{Binding CurrentRestaurant.Name}" FontSize="24"  TextWrapping="Wrap" VerticalAlignment="Top" Height="47" Width="306"/>
 
-        <Button Command="{Binding AddNewItem,Mode=OneWay}" Content="Tilføj Item" Height="40" Margin="36,588,0,0" VerticalAlignment="Top" Width="85"/>
+        <Button Command="{Binding AddNewItem,Mode=OneWay}" Content="Tilføj Item" Height="40" Margin="131,546,0,0" VerticalAlignment="Top" Width="85"/>
 
 
         <ListView SelectedItem="{Binding SelectedCartItem, Mode=TwoWay}" ItemsSource="{Binding MenuCartItem,Mode=TwoWay}" Margin="239,497,24,10">
@@ -44,8 +44,8 @@
         </ListView>
         <Button Command="{Binding GoBackCommand}" Content="Gå tilbage" Margin="29,686,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="14,77,0,0" Text="{Binding CurrentRestaurant.Open}" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button Command="{Binding RemoveItem,Mode=OneWay}" Content="Slet fra ordre" Margin="291,460,0,0" VerticalAlignment="Top"/>
-        <Button Command="{Binding GoToCartPageCommand}" Content="Gå til kurv" Margin="154,686,0,0" VerticalAlignment="Top"/>
+        <Button Command="{Binding RemoveItem,Mode=OneWay}" Content="Slet fra ordre" Margin="115,606,0,0" VerticalAlignment="Top"/>
+        <Button Command="{Binding GoToCartPageCommand}" Content="Gå til kurv" Margin="133,651,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="14,101,0,0" Text="Kontakt:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="71,101,0,0" Text="{Binding CurrentRestaurant.Number}" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="14,120,0,0" Text="Adresse:" TextWrapping="Wrap" VerticalAlignment="Top"/>
